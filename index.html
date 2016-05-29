@@ -4,6 +4,24 @@
   </head>
   <body>
     <h1>Learning RiotJS</h1>
+    <h4>Plain 'Hello World' Example</h4>
+    <hello-world></hello-world>
+
+    <h4>'Hello World' with a Property</h4>
+    <hello-world-dynamic greeting="John"></hello-world-dynamic>
+
+    <h4>'Hello World' with an Object Parameter</h4>
+    <hello-world-object-parameter></hello-world-object-parameter>
+
+    <h4>'Hello World' with a Form</h4>
+    <hello-world-form></hello-world-form>
   </body>
   <script src="bower_components/riot/riot.min.js"></script>
+  <script src="tags/all-tags.js"></script>
+  <script>
+    riot.mount('hello-world');
+    riot.mount('hello-world-dynamic');
+    riot.mount('hello-world-object-parameter', {greeting: 'Mr. Murray'});
+    riot.mount('hello-world-form');
+  </script>
 </html>
