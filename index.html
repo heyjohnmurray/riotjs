@@ -9,12 +9,17 @@
 
     <h4>'Hello World' with a Property</h4>
     <hello-world-dynamic greeting="John"></hello-world-dynamic>
+
+    <h4>'Hello World' with an Object Parameter</h4>
+    <hello-world-object-parameter></hello-world-object-parameter>
   </body>
   <script src="bower_components/riot/riot.min.js"></script>
   <script src="tags/hello-world.js"></script>
   <script src="tags/hello-world-dynamic.js"></script>
+  <script src="tags/hello-world-object-parameter.js"></script>
   <script>
     riot.mount('hello-world');
     riot.mount('hello-world-dynamic');
+    riot.mount('hello-world-object-parameter', {greeting: 'Mr. Murray'});
   </script>
 </html>
