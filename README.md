@@ -3,10 +3,10 @@ Learning RiotJS
 
 ### Miscellaneous Info
 
-* With node installed, `npm install http-server`
-* Also install bower and then run `bower install riot`
+* With node installed, `npm install -g http-server`
+* Also install bower, `npm install -g bower` and then run `bower install riot`
 * Fire up the server with `http-server` in the command line
-
+* Use the riot CLI, which comes installed with Riot when you run `npm install -g riot`, to compile your tags in command line. To compile: ```riot ./path/to/your-tag-file.tag```
 
 
 ### Videos
