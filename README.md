@@ -12,3 +12,8 @@ Learning RiotJS
 ### Videos
 https://www.youtube.com/watch?v=al87U6NgRTc
 https://www.youtube.com/watch?v=T-ZV9dv93sw
+
+### Articles
+http://riotjs.com/guide/
+https://gibbon.co/iansoper/learn-riot-js
+http://streamdata.io/blog/exploring-riot-js-part1/
