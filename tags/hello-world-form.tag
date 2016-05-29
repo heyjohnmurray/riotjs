@@ -1,6 +1,6 @@
 <hello-world-form>
   <form onsubmit="{sayHello}">
-    <input type="text" name="greeting">
+    <input type="text" name="greet">
     <button>Say Hello!</button>
   </form>
 
@@ -8,7 +8,7 @@
 
   <script>
     this.sayHello = function(){
-      this.greeting = this.greeting.value
+      this.greeting = this.greet.value
     }
   </script>
 </hello-world-form>
