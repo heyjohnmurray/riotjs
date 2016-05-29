@@ -12,14 +12,19 @@
 
     <h4>'Hello World' with an Object Parameter</h4>
     <hello-world-object-parameter></hello-world-object-parameter>
+
+    <h4>'Hello World' with a Form</h4>
+    <hello-world-form></hello-world-form>
   </body>
   <script src="bower_components/riot/riot.min.js"></script>
   <script src="tags/hello-world.js"></script>
   <script src="tags/hello-world-dynamic.js"></script>
   <script src="tags/hello-world-object-parameter.js"></script>
+  <script src="tags/hello-world-form.js"></script>
   <script>
     riot.mount('hello-world');
     riot.mount('hello-world-dynamic');
     riot.mount('hello-world-object-parameter', {greeting: 'Mr. Murray'});
+    riot.mount('hello-world-form');
   </script>
 </html>
