@@ -8,6 +8,7 @@ Learning RiotJS
 * Fire up the server with `http-server` in the command line
 * Use the riot CLI, which comes installed with Riot when you run `npm install -g riot`, to compile your tags in command line. To compile: ```riot ./path/to/your-tag-file.tag```
 * Compile all your tags into one file: ```riot ./source/path/ ./output/path/file-name.js```
+* Have riot watch for changes in your tag files by adding `-w` flag: ```riot -w ./source/path/ ./output/path/file-name.js```
 
 
 ### Videos
