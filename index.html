@@ -4,6 +4,17 @@
   </head>
   <body>
     <h1>Learning RiotJS</h1>
+    <h4>Plain 'Hello World' Example</h4>
+    <hello-world></hello-world>
+
+    <h4>'Hello World' with a Property</h4>
+    <dynamic-hello-world greeting="John"></dynamic-hello-world>
   </body>
   <script src="bower_components/riot/riot.min.js"></script>
+  <script src="tags/hello-world.js"></script>
+  <script src="tags/dynamic-hello-world.js"></script>
+  <script>
+    riot.mount('hello-world');
+    riot.mount('dynamic-hello-world');
+  </script>
 </html>

@@ -1,3 +1,3 @@
 <hello-world>
-  <h3>Hello World!</h3>
+  <p>Hello World!</p>
 </hello-world>
