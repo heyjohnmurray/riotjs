@@ -8,7 +8,8 @@ app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 
 app.get('/', function(req, res){
-  res.render('index');
+  var sampleHTML = '<h2>Sample HTML</h2>'
+  res.render('index', {tagContent: sampleHTML});
 });
 
 app.listen(3000, function(){
