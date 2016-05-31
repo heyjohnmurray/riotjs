@@ -1,3 +1,13 @@
+riot.tag2('contact-list', '<p>Contacts</p> <ul> <li each="{p in opts.people}">{p.first}{p.last}</li> </ul> <ol> <li each="{dogs in opts.dogs}">{dogs.name}</li> </ol> <ol> <li each="{color in opts.colors}">{color.name}</li> </ol>', '', '', function(opts) {
+
+
+    opts.callback();
+
+    this.on('mount', function(){
+      console.log('riot mount event fired');
+    });
+});
+
 riot.tag2('hello-world-dynamic', '<p>Hello {opts.greeting}</p>', '', '', function(opts) {
 });
 
